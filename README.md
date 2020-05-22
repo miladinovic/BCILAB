@@ -8,4 +8,8 @@ If you haven't previously installed BCILAB, you can clone the whole repository a
 
 
 **List of demos:**
-tba
+
+* [Effect of power feature nonstationarity on BCI spatial-filtering techniques](https://github.com/miladinovic/BCILabTS/blob/devel/userscripts/demo_SSA_spatial_flt.m)
+
+* [Slow Cortical Potential BCI Classification Using Sparse Variational Bayesian Logistic Regression: Evaluation on MEDICON2019 Autism Spectrum Disorder Dataset](https://github.com/miladinovic/BCILabTS/blob/devel/userscripts/demo_MEDICON2019ScientificChallenge.m)
+
