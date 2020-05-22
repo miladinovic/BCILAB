@@ -10,6 +10,7 @@ MATLAB Compiler
   
       >>mcrinstaller
       
+      
       at MATLAB prompt. The MCRINSTALLER command displays the 
       location of the MCR Installer.
 
