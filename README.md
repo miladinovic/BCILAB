@@ -1,4 +1,4 @@
-BCILAB_DEMO
+BCILabTS
 ======
 
 A demonstration repository and fork of a [BCILAB](https://github.com/sccn/BCILAB) MATLAB Toolbox for Brain-Computer Interface Research that was written at the Swartz Center for Computational Neuroscience, UCSD. 
