@@ -303,10 +303,10 @@ approaches_no_ssa.CSP = {'CSP' ...
 %% BCI modeling with and estimating error (accuracy) 10-fold chronological/blockwise cross-validation with 5 trials
 
 results_no_ssa = bci_batchtrain('StudyTag','demo_no_SSA','Data',calib_data,'PredictSets',test_data,'Approaches',approaches_no_ssa,'TargetMarkers',mrks,'ReuseExisting',false, ...
-    'LoadArguments',{'type','EEG'}, 'TrainArguments',{'EvaluationScheme',{'chron',10,5}},'StoragePattern','/tmp/batchresults/%caller-%study/%approach-%set.mat');
+    'LoadArguments',{'type','EEG'}, 'TrainArguments',{'EvaluationScheme',{'chron',10,5}},'StoragePattern','results/batchresults/%caller-%study/%approach-%set.mat');
 
 results_with_ssa = bci_batchtrain('StudyTag','demo_with_SSA','Data',calib_data,'PredictSets',test_data,'Approaches',approaches_with_ssa,'TargetMarkers',mrks,'ReuseExisting',false, ...
-    'LoadArguments',{'type','EEG'}, 'TrainArguments',{'EvaluationScheme',{'chron',10,1}},'StoragePattern','/tmp/batchresults/%caller-%study/%approach-%set.mat');
+    'LoadArguments',{'type','EEG'}, 'TrainArguments',{'EvaluationScheme',{'chron',10,5}},'StoragePattern','results/%caller-%study/%approach-%set.mat');
 %% Extract models metrics
 
 
