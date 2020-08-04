@@ -1,0 +1,26 @@
+% Download the dataset from
+% https://www.medicon2019.org/scientific-challenge/ and place it under
+% BCILabTS/userdata/medicon_2019_challange
+
+% For the demo purposes it is enough to download a single subject
+% ex: http://medicon2019.org/wp-content/uploads/sci_challenge/phase1/SBJ01.zip
+% and extract the content to the "medicon_2019_challange" folder
+
+
+
+% medicon_2019_challange dir structure and required files
+%
+% medicon_2019_challange/
+% -SBJ01
+% --S01
+% ---Test
+% ---- runs_per_block.txt
+% ---- testData.mat
+% ---- testEvents.txt
+% ---Train
+% ---- trainData.mat
+% ---- trainEvents.txt
+% ---- trainLabels.txt
+% ---- trainTargets.txt
+
+% for any issue feel free to contact me on aleksandar.miladinovic@phd.units.it
