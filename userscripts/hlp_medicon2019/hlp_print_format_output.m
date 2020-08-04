@@ -1,13 +1,13 @@
-function [fin_output]=hlp_print_format_output(results,app_names)
+function [fin_output]=hlp_print_format_output(results,app_names,true_lab)
 
 %%
 
 [x l]=size(results);
 fprintf('Number of approaches is %d\n',(l-3)/2);
 fprintf('%s\n',app_names{:});
-    fin_output=[];
-    
-     fprintf("\n\n Results \n\n");
+fin_output=[];
+
+fprintf("\n\n Results \n\n");
 
 for app=1:length(app_names)
     
@@ -52,7 +52,8 @@ for app=1:length(app_names)
     end
     
     fin_output=[fin_output; output];
-    fprintf("%s ",app_names{app});fprintf("%d ",output);fprintf("\n");
+    acc=sum((output-true_lab)~=0)/length(output)*100;
+    fprintf("%s (accuracy: %.2f ) labels: ",app_names{app},acc);fprintf("%d ",output);fprintf("\n");
     
     
     

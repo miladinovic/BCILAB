@@ -1,5 +1,6 @@
-% This script demonstrates how the approach implemented for classification
-% of P300 BCI slow-cortical potentials in children with Autism Spectrum Disorder (ASD).
+% This script demonstrates how Sparse Variational Bayesian Logistic
+% Regression with Automatic Relevance Determination can be used for
+% classficiation of P300 BCI in children with Autism Spectrum Disorder (ASD).
 %
 % More information about the procedure can be found on:
 %
@@ -8,6 +9,9 @@
 % In: Henriques J., Neves N., de Carvalho P. (eds) XV Mediterranean Conference on Medical and
 % Biological Engineering and Computing – MEDICON 2019. MEDICON 2019. IFMBE Proceedings,
 % vol 76. Springer, Cham. https://doi.org/10.1007/978-3-030-31635-8_225
+% 
+% Feel free to contact me if you have any difficulties and please cite the
+% relevant paper if you like the demonstration!
 %
 % Created by Aleksandar Miladinovic, aleksandar.miladinovic@phd.units.it
 
@@ -150,5 +154,11 @@ end
 % event : block
 results=[testEvents(2:end) results event' block'];
 
-% format the results required by the challange
-out=hlp_print_format_output(results,fieldnames(bci_models));
+% hardcoded true labels (for full information about the true labels contact the
+% IFMBE Challange orginsation)
+true_lab=[4	 4	1	8	3	7	1	8	4	6	8	2	1	5	5	6	2	3	7	1	7	8	8	1	7	4	8	3	2	6	7	6	4	4	7	7	7	1	5	1	1	2	6	4	7	7	5	5	5	7];
+
+% format the results required by the challange committee 
+out=hlp_print_format_output(results,fieldnames(bci_models),true_lab);
+
+
