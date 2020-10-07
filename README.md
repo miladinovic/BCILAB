@@ -14,3 +14,9 @@ If you haven't previously installed BCILAB, you can clone the whole repository a
 
 * [Slow Cortical Potential BCI Classification Using Sparse Variational Bayesian Logistic Regression: Evaluation on MEDICON2019 Autism Spectrum Disorder Dataset](https://github.com/miladinovic/BCILabTS/blob/devel/userscripts/demo_MEDICON2019ScientificChallenge.m)
 
+Cite:
+
+Miladinović, Aleksandar, et al. "Performance of EEG Motor-Imagery based spatial filtering methods: A BCI study on Stroke patients." Procedia Computer Science 176 (2020): 2840-2848.
+
+Miladinović, Aleksandar, et al. "Evaluation of Motor Imagery-Based BCI methods in neurorehabilitation of Parkinson’s Disease patients." 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). IEEE, 2020.
+
