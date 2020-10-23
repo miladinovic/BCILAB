@@ -4,6 +4,12 @@
 % help to reduce the negative effect by seprarating stationary subspace
 % from non-stationary. 
 %
+% Please cite:
+%
+% Aleksandar Miladinovic, Milos Ajcevic, Joanna Jarmolowska, Uros Marusic, Marco Colussi, Giulia Silveri, Piero Paolo Battaglini, Agostino Accardo,
+% Effect of power feature covariance shift on BCI spatial-filtering techniques: A comparative study,
+% Computer Methods and Programs in Biomedicine, https://doi.org/10.1016/j.cmpb.2020.105808
+%
 % Created by Aleksandar Miladinovic, aleksandar.miladinovic@phd.units.it
 
 
