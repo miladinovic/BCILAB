@@ -12,6 +12,11 @@ If you haven't previously installed BCILAB, you can clone the whole repository a
 
 * [Effect of power feature nonstationarity on BCI spatial-filtering techniques](https://github.com/miladinovic/BCILabTS/blob/devel/userscripts/demo_SSA_spatial_flt.m)
 
+Cite:
+Aleksandar Miladinović, Miloš Ajčević, Joanna Jarmolowska, Uros Marusic, Marco Colussi, Giulia Silveri, Piero Paolo Battaglini, Agostino Accardo,
+Effect of power feature covariance shift on BCI spatial-filtering techniques: A comparative study,
+Computer Methods and Programs in Biomedicine, 2020,https://doi.org/10.1016/j.cmpb.2020.105808
+
 * [Slow Cortical Potential BCI Classification Using Sparse Variational Bayesian Logistic Regression: Evaluation on MEDICON2019 Autism Spectrum Disorder Dataset](https://github.com/miladinovic/BCILabTS/blob/devel/userscripts/demo_MEDICON2019ScientificChallenge.m)
 
 Cite:
