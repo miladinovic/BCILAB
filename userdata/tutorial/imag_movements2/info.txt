@@ -1,1 +1,0 @@
-The relevant markers in these files are 0, 16 and 30.
